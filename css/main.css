@@ -1010,7 +1010,7 @@ margin-bottom: 20px;
 
 /* Footer */
 footer{
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 20px;
     background: rgb(241, 243, 239);
     /* background: linear-gradient(-3deg, whitesmoke 82%, rgb(129, 54, 214) 25%); */
@@ -1037,7 +1037,9 @@ footer{
     text-decoration: none;
     color:rgb(53, 152, 233);
 }
-
+.social-icons ul,.copy-right ul{
+    padding: 0;
+}
 
 ::-webkit-scrollbar{
     width: 10px;
