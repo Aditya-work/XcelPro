@@ -419,7 +419,11 @@ input[type="submit"]:hover{
     background: linear-gradient(to right, rgb(142, 45, 226), rgb(74, 0, 224));   
 
 }
-
+@media(min-width:991px) and (max-width:1199px){
+    .banner-container .content-right{
+        width: 30%;
+    }
+}
 
 @media (max-width:990px){
     
