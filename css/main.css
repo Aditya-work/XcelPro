@@ -471,7 +471,11 @@ input[type="submit"] {
 
 }
 @media(max-width:990px)and(min-width:768px){
-
+ .content-right form {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+}
         .content-right form {
     display: flex;
     flex-direction: column;
@@ -486,6 +490,11 @@ input[type="submit"] {
     .content-box p {
         margin-bottom: 50px;
     }
+            .content-right form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: auto;
     
 }
 @media(min-width:320px) and (max-width:767px){
